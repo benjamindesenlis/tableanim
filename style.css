@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+td {
+  border: 1px solid #333;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+table,
+tr {
+  height: 60px;
+  text-align: center;
+}
+
+thead,
+tfoot {
+  background-color: rgba(153, 26, 26, 0.849);
+  color: #fff;
+}
+
+.tablo {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 200px;
+}

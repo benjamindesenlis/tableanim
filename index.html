@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CDN ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- CDN CSS BOOTSTRAP VERSION 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- CDN CSS DATATABLE -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+
+    <!-- Lien style CSS ( TOUJOURS en dernier ) -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="tablo">
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th colspan="1" class="animate__animated animate__zoomIn">Prénom</th>
+                    <th colspan="1" class="animate__animated animate__zoomIn">Nom</th>
+                    <th colspan="1" class="animate__animated animate__zoomIn">Taille</th>
+                    <th colspan="1" class="animate__animated animate__zoomIn">Âge</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="animate__animated animate__lightSpeedInLeft">Bastien</td>
+                    <td class="animate__animated animate__zoomInUp">Durand</td>
+                    <td class="animate__animated animate__jackInTheBox">1m79</td>
+                    <td class="animate__animated animate__lightSpeedInRight">26ans</td>
+                </tr>
+                <tr>
+                    <td class="animate__animated animate__lightSpeedInRight">Maeva</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">Bayou</td>
+                    <td class="animate__animated animate__jackInTheBox">1m67</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">20ans</td>
+                </tr>
+                <tr>
+                    <td class="animate__animated animate__jackInTheBox">Naïm</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">Laouej</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">1m89</td>
+                    <td class="animate__animated animate__zoomInUp">30ans</td>
+                </tr>
+                <tr>
+                    <td class="animate__animated animate__lightSpeedInLeft">Maxime</td>
+                    <td class="animate__animated animate__jackInTheBox">Yhaa</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">1m70</td>
+                    <td class="animate__animated animate__zoomInUp">36ans</td>
+                </tr>
+                <tr>
+                    <td class="animate__animated animate__lightSpeedInLeft">Arthuretta</td>
+                    <td class="animate__animated animate__jackInTheBox">Mimi</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">1m49</td>
+                    <td class="animate__animated animate__zoomInUp">18ans</td>
+                </tr>
+                <tr>
+                    <td class="animate__animated animate__lightSpeedInLeft">Mickael</td>
+                    <td class="animate__animated animate__jackInTheBox">Youn</td>
+                    <td class="animate__animated animate__lightSpeedInLeft">1m72</td>
+                    <td class="animate__animated animate__zoomInUp">41ans</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- CDN JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
+
+    <!-- CDN JS BOOTSRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- CDN JS DATATABLES -->
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+
+    <!-- CREATION DE SCRIPT JS -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
